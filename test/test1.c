@@ -3,4 +3,6 @@
 int main(){
     int TF = 10;
     printf("%d", TF%2);
+    
+    return 0;
 }
