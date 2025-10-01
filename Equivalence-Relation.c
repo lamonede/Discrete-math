@@ -11,19 +11,19 @@ int main(){
     int size_pair = (sizeof(ordered_pair)/4);
     int size_aggregation = (sizeof(array)/4);
 
-    if(reflextion(ordered_pair, array, size_pair, size_aggregation)){   //반사
+    if(reflextion(ordered_pair, array, size_pair, size_aggregation)){   //Reflextion
         printf("Reflexive relation\n\n");
     } else {
         printf("Not Reflexive relation\n\n");
     }
 
-    if(symmetric(ordered_pair, size_pair)){                             //대칭
+    if(symmetric(ordered_pair, size_pair)){                             //Symmetric
         printf("Symmetric relation\n\n");
     } else {
         printf("Not Symmetric relation\n\n");
     }
 
-    if(transitive(ordered_pair, size_pair)){                            //추이
+    if(transitive(ordered_pair, size_pair)){                            //Transitive
         printf("Transitive relation\n\n");
     }   else {
         printf("Not Transitive relation\n\n");
